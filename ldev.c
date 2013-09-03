@@ -20,7 +20,7 @@ int main(int argc, char **argv)
     char *net; /* dot notation of the network address */
     char *mask;/* dot notation of the network mask    */
     int ret;   /* return code */
-    char errbuf[PCAP_ERRBUG_SIZE];
+    char errbuf[PCAP_ERRBUF_SIZE];
     bpf_u_int32 netp; /* ip           */
     bpf_u_int32 maskp;/* subnet mask */
     struct in_addr addr;
